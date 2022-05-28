@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.MainGuestPage">
+   <children>
+      <Button layoutX="31.0" layoutY="56.0" mnemonicParsing="false" onMouseClicked="#newGame" prefHeight="66.0" prefWidth="120.0" text="New Game">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="31.0" layoutY="155.0" mnemonicParsing="false" onMouseClicked="#loadGame" prefHeight="66.0" prefWidth="120.0" text="Load Game">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="31.0" layoutY="258.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="66.0" prefWidth="120.0" text="Logout">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="353.0" fitWidth="327.0" layoutX="212.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/giphy.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

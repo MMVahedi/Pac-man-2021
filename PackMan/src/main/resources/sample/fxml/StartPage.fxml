@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.StartPage">
+   <children>
+      <Button layoutX="50.0" layoutY="39.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="66.0" prefWidth="120.0" text="Login">
+         <font>
+            <Font name="Baskerville Old Face" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="50.0" layoutY="123.0" mnemonicParsing="false" onMouseClicked="#register" prefHeight="66.0" prefWidth="120.0" text="Register">
+         <font>
+            <Font name="Baskerville Old Face" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="50.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#loginWithGuest" prefHeight="66.0" prefWidth="120.0" text="Guest">
+         <font>
+            <Font name="Baskerville Old Face" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="50.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#scoreBoard" prefHeight="65.0" prefWidth="120.0" text="Score Board">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="518.0" layoutY="347.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="32.0" prefWidth="54.0" text="Exit">
+         <font>
+            <Font name="Baskerville Old Face" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="224.0" fitWidth="260.0" layoutX="249.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/ghost.gif" />
+         </image>
+      </ImageView>
+<!--      <View />-->
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="208.0" layoutY="39.0" prefHeight="55.0" prefWidth="306.0" text="Welcome to PacMan" textFill="#0033ff">
+         <font>
+            <Font name="Curlz MT" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
